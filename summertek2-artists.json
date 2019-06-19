@@ -23,7 +23,11 @@
             "picture": "",
             "schedule": ["23h", "00h"],
             "style": "Techno Acid",
-            "description": "",
+            "description": "NRD de son vrai nom Bernard Antoine, provient de Nantes. 
+              Ayant grandi dans le Poitou, il fait partit aujourd hui du collectif Octo Sympho,
+            il compose et mixe une Techno sombre et énergique tout en 
+            variant les styles lors de ses sets. Jonglant entre vinyle et CDJ, NRD a pu se produire dans différents bars
+            et clubs dans les Deux sèvres mais également sur La Rochelle, Nantes et dans de nombreuses raves.",
             "soundcloud": "",
             "facebook": ""
         },
@@ -32,7 +36,10 @@
             "picture": "",
             "schedule": ["00h", "02h"],
             "style": "Acid Tekno",
-            "description": "",
+            "description": "Producteur de musique électronique depuis bientôt 10 ans, Neuroptik a exploré plusieurs style
+            allant de la minimal à la Hardtechno pour finalement se révéler une attirance particulière pour l'acid techno. 
+            Son style personnel vous emmènera 
+            au plus profond de son subconscient pour vous transporter sur une vague émotionnel mental acid techno...",
             "soundcloud": "",
             "facebook": ""
         },
@@ -96,7 +103,7 @@
             "name": "Vortek's",
             "picture": "",
             "schedule": ["02h", "04h"],
-            "style": "",
+            "style": "Live",
             "description": "",
             "soundcloud": "https://soundcloud.com/vortek-s",
             "facebook": "https://www.facebook.com/vortekss/"
