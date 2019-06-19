@@ -1,6 +1,6 @@
 # www.scenes-alternatives.fr
 
-Association loi 1901 - Organisation de soirées électroniques en Poitou-Charentes.
+Association loi 1901 - Organisation d'evenement culturel en Poitou-Charentes.
 
 Template HTML/CSS utilisé: https://github.com/BulmaTemplates/bulma-templates/blob/master/templates/band.html
 
