@@ -1,0 +1,22 @@
+{
+  "name": "scenes-alternatives.fr",
+  "version": "1.0.0",
+  "description": "Association loi 1901 - Organisation de soirées électroniques en Poitou-Charentes.",
+  "main": "index.js",
+  "dependencies": {
+    "twig": "^1.13.3"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-clean-dir": "^1.0.2",
+    "gulp-load-plugins": "^1.6.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-twig": "^1.2.0",
+    "gulp-watch": "^5.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,62 @@
+{% extends "base.html.twig" %}
+
+{% block page_content %}
+    <section id="fly" class="container">
+        <figure class="image">
+            <img src="images/fly-summertek2-head.png">
+        </figure>
+    </section>
+
+    <section class="section">
+        <div class="container has-text-centered">
+            <h1 class="title">Summertek 2</h1>
+
+            <div class="columns is-centered">
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="artistes" class="section">
+        <div class="container has-text-centered">
+            <h2 class="title">Les Artistes</h2>
+
+            <h4 class="subtitle">Scène Extérieure</h4>
+            <div class="columns is-centered is-multiline" style="padding: 2rem">
+                {% for artist in artists.outdoor %}
+                    {% include 'partials/artist-card.html.twig' with artist only %}
+                {% endfor %}
+            </div>
+
+            <h4 class="subtitle">Scène Intérieure</h4>
+            <div class="columns is-centered is-multiline" style="padding: 2rem">
+                {% for artist in artists.indoor %}
+                    {% include 'partials/artist-card.html.twig' with artist only %}
+                {% endfor %}
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section id="billeterie" class="section">
+        <div class="container has-text-centered">
+            <h2 class="title">La Billeterie</h2>
+
+            <div class="column">
+                <a title="Vente de billets en ligne"
+                    href="https://www.billetweb.fr/shop.php?event=summertek-2"
+                    class="shop_frame"
+                    target="_blank"
+                    data-src="https://www.billetweb.fr/shop.php?event=summertek-2" 
+                    data-max-width="100%" 
+                    data-max-height="100%" 
+                    data-initial-height="600"
+                    data-scrolling="no"
+                    data-id="summertek-2"
+                    data-resize="1">
+                    Vente de billets en ligne
+                </a>
+            </div>
+        </div>
+    </section>
+{% endblock %}

@@ -1,0 +1,46 @@
+<div class="column is-3">
+    <div class="card">
+        <div class="card-image">
+            <figure class="image is-2by1">
+                {%- if picture == "" -%}
+                  {% set picture = "https://via.placeholder.com/640x320.jpg?text=" ~ name %}
+                {%- endif -%}
+                <img src="{{ picture }}" alt="Placeholder image">
+            </figure>
+        </div>
+        <div class="card-content">
+            <div class="media">
+                <div class="media-content">
+                    <p class="title is-4">{{ name }}</p>
+                    <p class="subtitle is-6">{{ style }}</p>
+                    <p class="subtitle is-6">De {{ schedule.0 }} à {{ schedule.1 }}</p>
+                </div>
+            </div>
+
+            <div class="content">
+                {{ description }}
+            </div>
+        </div>
+        <footer class="card-footer">
+            {% if soundcloud != "" and soundcloud != null %}
+            <p class="card-footer-item">
+            <span>
+                <a href="{{ soundcloud }}" target="_blank">
+                    Soundcloud
+                </a>
+            </span>
+            </p>
+            {% endif %}
+            
+            {% if facebook != "" and facebook != null %}
+            <p class="card-footer-item">
+            <span>
+                <a href="{{ facebook }}" target="_blank">
+                    Facebook
+                </a>
+            </span>
+            </p>
+            {% endif %}
+        </footer>
+    </div>
+</div>

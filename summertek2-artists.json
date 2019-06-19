@@ -1,0 +1,123 @@
+{
+    "outdoor": [
+        {
+            "name": "...",
+            "picture": "",
+            "schedule": ["21h", "22h"],
+            "style": "",
+            "description": "",
+            "souncloud": "",
+            "facebook": ""
+        },
+        {
+            "name": "Circus - FSF",
+            "picture": "",
+            "schedule": ["22h", "23h"],
+            "style": "Techno",
+            "description": "",
+            "soundcloud": "",
+            "facebook": ""
+        },
+        {
+            "name": "NRD",
+            "picture": "",
+            "schedule": ["23h", "00h"],
+            "style": "Techno Acid",
+            "description": "",
+            "soundcloud": "",
+            "facebook": ""
+        },
+        {
+            "name": "Léandre",
+            "picture": "",
+            "schedule": ["00h", "02h"],
+            "style": "Acid Tekno",
+            "description": "",
+            "soundcloud": "",
+            "facebook": ""
+        },
+        {
+            "name": "Alex Garcia",
+            "picture": "",
+            "schedule": ["02h", "04h"],
+            "style": "",
+            "description": "",
+            "soundcloud": "https://soundcloud.com/alexandregarciaempire",
+            "facebook": "https://www.facebook.com/alexgarciaempire/"
+        },
+        {
+            "name": "JKS",
+            "picture": "",
+            "schedule": ["04h", "06h"],
+            "style": "",
+            "description": "",
+            "soundcloud": "https://soundcloud.com/jksmusic",
+            "facebook": "https://www.facebook.com/This.is.JKS/"
+        },
+        {
+            "name": "Lexa - Fab'ily",
+            "picture": "",
+            "schedule": ["06h", "07h"],
+            "style": "",
+            "description": "",
+            "soundcloud": "",
+            "facebook": ""
+        }
+    ],
+    "indoor": [
+        {
+            "name": "Fab le Normandiste",
+            "picture": "",
+            "schedule": ["22h", "23h"],
+            "style": "",
+            "description": "",
+            "soundcloud": "",
+            "facebook": ""
+        },
+        {
+            "name": "Erky",
+            "picture": "",
+            "schedule": ["22h", "23h"],
+            "style": "",
+            "description": "",
+            "soundcloud": "",
+            "facebook": ""
+        },
+        {
+            "name": "The Lokomotiverz",
+            "picture": "",
+            "schedule": ["00h30", "02h"],
+            "style": "Hardcore",
+            "description": "",
+            "soundcloud": "https://soundcloud.com/the-lokomotiverz",
+            "facebook": "https://www.facebook.com/TheLOKOMOTIVERZ/"
+        },
+        {
+            "name": "Vortek's",
+            "picture": "",
+            "schedule": ["02h", "04h"],
+            "style": "",
+            "description": "",
+            "soundcloud": "https://soundcloud.com/vortek-s",
+            "facebook": "https://www.facebook.com/vortekss/"
+        },
+        {
+            "name": "D-Frek",
+            "picture": "",
+            "schedule": ["04", "06h"],
+            "style": "",
+            "description": "",
+            "soundcloud": "https://soundcloud.com/dfrek",
+            "facebook": "https://www.facebook.com/DFrekFR/"
+        },
+        {
+            "name": "Bastien - Radiatek",
+            "picture": "",
+            "schedule": ["06h", "07h"],
+            "style": "",
+            "description": "",
+            "soundcloud": "",
+            "facebook": ""
+        }
+    ]
+}

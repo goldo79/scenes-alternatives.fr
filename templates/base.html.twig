@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    {% block title %}
+    <title>Scènes Alternatives - Soirées Électroniques en Poitou-Charentes</title>
+    {% endblock %}
+
+    <!-- <link rel="shortcut icon" href="../images/fav_icon.png" type="image/x-icon"> -->
+    <link rel="stylesheet" href="https://unpkg.com/bulma@0.7.5/css/bulma.min.css" />
+    <link rel="stylesheet" href="styles/style.css">
+
+    <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js"></script>
+    <script defer src="js/bulma.js"></script>
+    <script defer src="https://www.billetweb.fr/js/export.js"></script>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="https://www.scenes-alternatives.fr">
+                <img src="images/scenes-alternatives-logo.png"
+                     alt="Association Scènes Alternatives - Organise des soirées électroniques dans le Poitou-Charentes"
+                     width="64" height="64" />
+            </a>
+            <div class="navbar-burger burger" data-target="navbar-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+
+        <div id="navbar-menu" class="navbar-menu">
+            <div class="navbar-start">
+                <a class="navbar-item" href="index.html">
+                    Home
+                </a>
+                <span class="navbar-item"></span>
+                <span class="navbar-item"></span>
+                <span class="navbar-item"></span>
+                <a class="navbar-item" href="index.html#fly">
+                    Summertek 2:
+                </span>
+                <a class="navbar-item" href="index.html#artistes">
+                    Les Artistes
+                </a>
+                <a class="navbar-item" href="#billeterie">
+                    La Billeterie
+                </a>
+            </div>
+
+            <div class="navbar-end is-offset-1">
+                <div class="navbar-item">
+                    <a href="https://www.facebook.com/Scènes-Alternatives-2003366533083875/" target="_blank">
+                        <i class="fab fa-facebook-square fa-2x"></i>
+                    </a>
+                </div>
+                <!-- <div class="navbar-item">
+                    <a href="#" target="_blank">
+                        <i class="fab fa-facebook-messenger fa-2x"></i>
+                    </a>
+                </div> -->
+            </div>
+        </div>
+    </nav>
+
+    {% block page_content %}
+    {% endblock %}
+
+    <footer class="footer">
+        <div class="container">
+            <div class="content has-text-centered">
+                <p>
+                    <a href="">
+                        Mentions Légales
+                    </a> - 
+                    <a href="">
+                        Données personnelles
+                    </a>
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

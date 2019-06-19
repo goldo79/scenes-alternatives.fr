@@ -1,0 +1,54 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  font-size: 1.3em;
+}
+
+.navbar-brand {
+  background-color: white;
+}
+
+.navbar-item img {
+  max-height: none;
+}
+
+.navbar-burger {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+/* .navbar-menu {
+  display: flex;
+  align-items: stretch;
+} */
+
+.navbar-end {
+  margin-right: 3rem;
+}
+
+.title + .subtitle, .subtitle + .subtitle {
+  margin-top: -1.25rem;
+}
+
+#fly.container {
+  margin-top: 1.2em;
+}
+
+#artistes {
+  padding-bottom: 0;
+}
+
+#artistes > .container > .title + .subtitle {
+  margin-top: 0;
+  padding-bottom: 0;
+}
+
+.card {
+  margin-bottom: 1em
+}
+
+.footer {
+  padding: 2rem 1.5rem 3rem;
+}
